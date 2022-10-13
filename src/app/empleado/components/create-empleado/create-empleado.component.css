@@ -1,0 +1,43 @@
+.card-footer{
+  background-color: transparent;
+  border-top: none;
+}
+
+.profile_image{
+  width: 150px;
+  height: 150px;
+}
+
+.custom-file-label{
+  overflow: hidden;
+  /* height: 35px; */
+}
+
+.custom_load_image{
+  padding-inline: 15px;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .container_apellido{
+    margin-top: 1rem;
+  }
+  .profile_image{
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .profile_image{
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container_img{
+    display:flex;
+    justify-content: center;
+  }
+}
